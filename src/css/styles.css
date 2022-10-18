@@ -482,7 +482,7 @@ header .container ul a{
 }
 .overline:hover {
     background-size: 100% 88%;
-    color: white;
+    color: #FFF;
     transition: background-size 0.6s ease-in;
     
 }
@@ -496,18 +496,29 @@ header .container ul a{
     }
 }
 
-
-
-@media (max-width: 1300px){
-    .section-three h1{
+@media (max-width: 1500px){
+    .section-three h1 {
         font-size: 4em;
     }
+
+    .overline{
+        background-size: 100% 88%;
+    }
+
+}
+
+@media (max-width: 1300px){
+    .section-three h1 {
+        font-size: 4em;
+    }
+
 }
 
 @media (max-width: 640px){
     .section-three h1{
         font-size: 3em;
     }
+
 }
 
 @media (max-width: 472px){

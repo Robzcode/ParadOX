@@ -2,7 +2,7 @@ var aText = new Array(
     '"ParadOX permet d\'écrire de grandes chose en ayant de petits moyens"', 
     '"N\'est-ce pas cela ? Le paradoxe ?"'
     );
-    var iSpeed = 100; // time delay of print out
+    var iSpeed = 400; // time delay of print out
     var iIndex = 0; // start printing array at this posision
     var iArrLength = aText[0].length;
     var iScrollAt = 20; 
